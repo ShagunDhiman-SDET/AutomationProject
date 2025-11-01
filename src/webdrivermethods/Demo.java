@@ -8,9 +8,9 @@ public class Demo {
         //get(String url)
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https:www.facebook.com");
+        driver.get("https:www.instagram.com");
        // driver.get("https:www.instagram.com");
-        //getTitle()
+
         String title = driver.getTitle();
         System.out.println(title);
         //match actual title = expected title
