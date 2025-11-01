@@ -17,6 +17,9 @@ public class LaunchBrowserFromUserWithSwitch {
 			String browser = s.next();
 			if(browser.equalsIgnoreCase("chrome")) {
 				driver = new ChromeDriver();
+				
+				
+				
 			}
 			else if (browser.equalsIgnoreCase("firefox")) {
 		driver = new FirefoxDriver();
